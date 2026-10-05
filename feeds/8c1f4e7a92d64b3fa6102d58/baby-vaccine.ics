@@ -52,25 +52,60 @@ DESCRIPTION:现在去App预约：默沙东五价轮状疫苗｜第3剂
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vaccine-20261005-2@codex.local
+UID:vaccine-20261006-2@codex.local
 DTSTAMP:20260706T030000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:宝宝疫苗｜进口五联疫苗｜第3剂
-DESCRIPTION:潘太欣；距第2剂6周，完成基础3剂 选品建议：
- 进口·赛诺菲。\n望京社区常规接种时段：上午8:00–11:00
- 。\n法定节假日不可预约；号源、进口疫苗及RSV库存以
- 首都疫苗服务APP和登记医生为准。计划日期可调整，接
- 种前请携带预防接种证。
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:宝宝疫苗｜RSV长效抗体（克莱罗韦单抗）｜单次
+DESCRIPTION:安福畅；第一个RSV流行季固定剂量105 mg（0.7 mL
+ ）单次肌注；以接种门诊说明书核对为准 选品建议：进
+ 口·默沙东。\n望京社区常规接种时段：上午8:00–11:00。
+ \n法定节假日不可预约；号源、进口疫苗及RSV库存以首
+ 都疫苗服务APP和登记医生为准。计划日期可调整，接种
+ 前请携带预防接种证。
 LOCATION:望京社区（以实际预约为准）
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:booking-20261005-2@codex.local
+UID:booking-20261006-2@codex.local
 DTSTAMP:20260706T030000Z
-DTSTART;TZID=Asia/Shanghai:20260928T060000
-DTEND;TZID=Asia/Shanghai:20260928T061500
+DTSTART;TZID=Asia/Shanghai:20260929T060000
+DTEND;TZID=Asia/Shanghai:20260929T061500
+SUMMARY:预约疫苗｜RSV长效抗体（克莱罗韦单抗）｜单次
+DESCRIPTION:望京社区06:00放号，可预约7天。请进入首都疫
+ 苗服务APP预约RSV长效抗体（克莱罗韦单抗）｜单次。\n
+ 望京社区常规接种时段：上午8:00–11:00。\n法定节假日
+ 不可预约；号源与库存以APP和登记医生为准。
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:PT0M
+ACTION:DISPLAY
+DESCRIPTION:现在去App预约：RSV长效抗体（克莱罗韦单抗）
+ ｜单次
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vaccine-20261013-3@codex.local
+DTSTAMP:20260706T030000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:宝宝疫苗｜进口五联疫苗｜第3剂
+DESCRIPTION:潘太欣；距第2剂42天；距RSV长效抗体7天，完成
+ 基础3剂 选品建议：进口·赛诺菲。\n望京社区常规接种
+ 时段：上午8:00–11:00。\n法定节假日不可预约；号源、
+ 进口疫苗及RSV库存以首都疫苗服务APP和登记医生为准。
+ 计划日期可调整，接种前请携带预防接种证。
+LOCATION:望京社区（以实际预约为准）
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:booking-20261013-3@codex.local
+DTSTAMP:20260706T030000Z
+DTSTART;TZID=Asia/Shanghai:20261006T060000
+DTEND;TZID=Asia/Shanghai:20261006T061500
 SUMMARY:预约疫苗｜进口五联疫苗｜第3剂
 DESCRIPTION:望京社区06:00放号，可预约7天。请进入首都疫
  苗服务APP预约进口五联疫苗｜第3剂。\n望京社区常规接
@@ -82,40 +117,6 @@ BEGIN:VALARM
 TRIGGER:PT0M
 ACTION:DISPLAY
 DESCRIPTION:现在去App预约：进口五联疫苗｜第3剂
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:vaccine-20261012-3@codex.local
-DTSTAMP:20260706T030000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:宝宝疫苗｜RSV长效抗体（尼塞韦单抗）｜单次
-DESCRIPTION:乐唯初；不是传统疫苗，剂量由医生按注射当
- 天体重确定 选品建议：进口·赛诺菲。\n望京社区常规
- 接种时段：上午8:00–11:00。\n法定节假日不可预约；号
- 源、进口疫苗及RSV库存以首都疫苗服务APP和登记医生为
- 准。计划日期可调整，接种前请携带预防接种证。
-LOCATION:望京社区（以实际预约为准）
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:booking-20261012-3@codex.local
-DTSTAMP:20260706T030000Z
-DTSTART;TZID=Asia/Shanghai:20261005T060000
-DTEND;TZID=Asia/Shanghai:20261005T061500
-SUMMARY:预约疫苗｜RSV长效抗体（尼塞韦单抗）｜单次
-DESCRIPTION:望京社区06:00放号，可预约7天。请进入首都疫
- 苗服务APP预约RSV长效抗体（尼塞韦单抗）｜单次。\n望
- 京社区常规接种时段：上午8:00–11:00。\n法定节假日不
- 可预约；号源与库存以APP和登记医生为准。
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:PT0M
-ACTION:DISPLAY
-DESCRIPTION:现在去App预约：RSV长效抗体（尼塞韦单抗）｜
- 单次
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
